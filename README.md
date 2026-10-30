@@ -1,65 +1,21 @@
-# Examination Management System in C
+# Examination Management System
 
-A beginner-friendly, menu-driven Examination Management System written in standard C (C99/C11). Designed for college viva and lab coursework demonstration with simple in-memory storage, input validation, and automatic result processing.
-
----
-
-## Features
-
-1. **Student Details**: Store Roll Number and Name.
-2. **Subject Marks**: Input marks for 5 core theory subjects with 0–100 validation:
-   - Discrete Mathematics
-   - Relational Database Management Systems (RDBMS)
-   - Programming & Problem-Solving Using C
-   - Web Technologies
-   - Data Visualization
-3. **Total Marks**: Calculates total marks obtained out of 500.
-4. **Percentage**: Computes percentage with 2-decimal precision.
-5. **Grade Calculation**:
-   - `90% - 100%`: A+
-   - `80% - 89.99%`: A
-   - `70% - 79.99%`: B
-   - `60% - 69.99%`: C
-   - `50% - 59.99%`: D
-   - `Below 50%`: F
-6. **Result Generation**:
-   - **PASS**: At least 35 marks in all 5 subjects.
-   - **FAIL**: Less than 35 marks in any subject.
-   - Formatted individual result card.
-7. **Topper Identification**: Finds class topper(s) and handles ties gracefully.
+The **Examination Management System** is a lightweight, console-based academic management application developed in standard C. It is designed to simplify and automate core examination evaluation tasks for educational institutions, such as recording student information, tracking subject-wise marks, computing performance metrics, and generating reports.
 
 ---
 
-## Project Structure
+## About the Project
 
-```
-├── main.c               # Complete source code in a single file (~350 lines)
-├── README.md            # Project documentation
-└── .gitignore           # Git ignore for compiled binaries and build artifacts
-```
+This project provides an intuitive, menu-driven interface tailored for managing student examination records efficiently within program memory:
 
----
-
-## How to Compile & Run
-
-### Using GCC (MinGW / Windows PowerShell):
-```powershell
-gcc main.c -o exam_system.exe
-.\exam_system.exe
-```
-
-### Using MSVC (Developer Command Prompt / Visual Studio):
-```cmd
-cl main.c
-exam_system.exe
-```
-
-### In Visual Studio IDE:
-1. Create an **Empty C/C++ Project** or **Console App**.
-2. Add `main.c` to **Source Files**.
-3. Press `Ctrl + F5` to compile and run.
-
----
-
-## License
-Open-source under the MIT License.
+- **Student Record Management**: Allows entry and tracking of student details, including unique roll numbers and student names.
+- **Academic Course Evaluation**: Evaluates scores across five core theoretical subjects:
+  1. Discrete Mathematics
+  2. Relational Database Management Systems (RDBMS)
+  3. Programming & Problem-Solving Using C
+  4. Web Technologies
+  5. Data Visualization
+- **Input Validation**: Ensures data integrity by verifying that entered roll numbers are positive and unique, and that subject marks strictly fall within the valid range of 0 to 100.
+- **Automated Score Calculations**: Automatically computes each student's total marks (out of 500) and calculates the overall percentage.
+- **Grading & Pass/Fail Evaluation**: Assigns letter grades (`A+`, `A`, `B`, `C`, `D`, `F`) using standard percentage brackets and determines final result status based on a clear passing rule (a minimum score of 35 in every subject).
+- **Result & Performance Reports**: Generates detailed individual marksheets, class-wide summary tables, and identifies class topper(s) while accounting for tie scores.
