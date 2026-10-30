@@ -34,7 +34,6 @@ A beginner-friendly, menu-driven Examination Management System written in standa
 
 ```
 ├── main.c               # Complete source code in a single file (~350 lines)
-├── viva_preparation.md  # Detailed viva question & answer guide
 ├── README.md            # Project documentation
 └── .gitignore           # Git ignore for compiled binaries and build artifacts
 ```
