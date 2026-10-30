@@ -39,7 +39,7 @@ Enter your choice (1-6):
 ```text
 --- Add Student ---
 Enter Roll Number: 101
-Enter Student Name: Hardik Sharma
+Enter Student Name: Hardik Nakum
 
 Enter marks out of 100:
 Discrete Mathematics: 88
@@ -59,7 +59,7 @@ Student added successfully!
 ----------------------------------------------------------------------
 Roll     Name                 Total      Percentage   Grade    Result  
 ----------------------------------------------------------------------
-101      Hardik Sharma        449.00     89.80      % A        PASS    
+101      Hardik Nakum        449.00     89.80      % A        PASS    
 102      Rohan Verma          325.00     65.00      % C        FAIL    
 ----------------------------------------------------------------------
 Total Students: 2
@@ -75,7 +75,7 @@ Enter Roll Number to search: 101
 
 --- Student Found ---
 Roll Number : 101
-Name        : Hardik Sharma
+Name        : Hardik Nakum
 Total Marks : 449.00 / 500
 Percentage  : 89.80%
 Grade       : A
@@ -95,7 +95,7 @@ Enter Roll Number for Result Card: 101
                 STUDENT RESULT CARD               
 **************************************************
 Roll Number          : 101
-Name                 : Hardik Sharma
+Name                 : Hardik Nakum
 --------------------------------------------------
 Discrete Mathematics : 88.00 / 100
 RDBMS                : 92.00 / 100
@@ -120,7 +120,7 @@ Result               : PASS
               CLASS TOPPER              
 ****************************************
 Roll Number : 101
-Name        : Hardik Sharma
+Name        : Hardik Nakum
 Total Marks : 449.00 / 500.00
 Percentage  : 89.80%
 Grade       : A
